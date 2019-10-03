@@ -16,8 +16,8 @@ class Triangle {
 
         System.out.println("Here's your triangle!");
 
-        for (double i = 0; i <= t; i++) {
-            for (double n = (t + 1.0); n >= ((i - t) - 1.0); n--) {
+        for (double i = 0.0; i <= t; i++) {
+            for (double n = 0.0; n <= i - 1.0; n++) {
                 System.out.print(m);
             }
             System.out.println(m);
